@@ -2,6 +2,8 @@
 
 TABLA DE CONTROL
 
+CREAR TABLA
+
 ```
 CREATE TABLE dbo.tabla_control (
     id       INT IDENTITY(1,1) PRIMARY KEY,
@@ -10,6 +12,9 @@ CREATE TABLE dbo.tabla_control (
     activo   BIT           NOT NULL DEFAULT 1
 );
 
+```
+
+INSERT DE TABLAS
 
 ```
 
