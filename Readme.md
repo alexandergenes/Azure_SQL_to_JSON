@@ -1,4 +1,15 @@
+CADENA DE ACTIVIDADES
 
+```
+tabla_control.tabla
+    → Lookup
+        → ForEach → item().tabla
+            → Copy Activity
+                → ds_destino_parquet
+                    → p_tabla = @item().tabla
+                    → p_fecha_ingesta = @variables('v_fecha_ingesta')
+
+```
 
 TABLA DE CONTROL
 
