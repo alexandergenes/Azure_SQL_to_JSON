@@ -15,7 +15,7 @@ TABLA DE CONTROL
 
 CREAR TABLA
 
-```
+```sql
 CREATE TABLE dbo.tabla_control (
     id       INT IDENTITY(1,1) PRIMARY KEY,
     esquema  NVARCHAR(50)  NOT NULL,
