@@ -27,8 +27,7 @@ CREATE TABLE dbo.tabla_control (
 
 INSERT DE TABLAS
 
-```
-
+```sql
 INSERT INTO dbo.tabla_control (esquema, tabla, activo) VALUES
 ('dbo', 'datos_personales', 1),
 ('dbo', 'datos_residencia',  1);
